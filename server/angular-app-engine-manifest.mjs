@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/linhtinh',
   supportedLocales: {
   "en-US": ""
 },

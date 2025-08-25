@@ -1,9 +1,9 @@
-<!doctype html>
+export default `<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>ChucEmLinhNn</title>
-  <base href="/">
+  <base href="/linhtinh/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles-5INURTSO.css"></head>
@@ -12,3 +12,4 @@
   <app-root></app-root>
 <script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-RQ4U5NIK.js" type="module"></script></body>
 </html>
+`;
