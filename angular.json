@@ -24,10 +24,8 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+            "src/favicon.ico",
+  "src/assets"
             ],
             "styles": [
               "src/styles.scss"
@@ -81,8 +79,8 @@
           "builder": "@angular/build:karma",
           "options": {
             "polyfills": [
-              "zone.js",
-              "zone.js/testing"
+              "src/favicon.ico",
+  "src/assets"
             ],
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
@@ -99,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f5e98baf-64ae-497f-8a3d-4ab02d0c50e0"
   }
 }
