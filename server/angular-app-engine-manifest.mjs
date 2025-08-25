@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/chucEmLinhNn',
+  basePath: '/linhtinh',
   supportedLocales: {
   "en-US": ""
 },
