@@ -19,6 +19,7 @@
   max-width: 350px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   animation: fadeIn 1.2s ease-out;
+  z-index: 10;
 }
 
 .goodnight-message h2 {
@@ -31,6 +32,7 @@
   font-size: 1.1rem;
   color: #333;
   margin: 15px 0;
+   z-index: 10;
 }
 
 .goodnight-message button {
@@ -89,4 +91,60 @@
   button:hover {
      background-color: rgba(30, 144, 255, 1); /* hover đậm hơn */
   }
+}
+
+.background-slideshow {
+
+   margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: fade 50s infinite;
+}
+
+.bg1 { background-image: url('../assets/images/l1.png'); animation-delay: 0s; }
+.bg2 { background-image: url('../assets/images/l2.png'); animation-delay: 5s; }
+.bg3 { background-image: url('../assets/images/l3.jpg'); animation-delay: 10s; }
+.bg4 { background-image: url('../assets/images/l5.jpg'); animation-delay: 15s; }
+.bg5 { background-image: url('../assets/images/l6.jpg'); animation-delay: 20s; }
+.bg6 { background-image: url('../assets/images/l7.jpg'); animation-delay: 25s; }
+.bg7 { background-image: url('../assets/images/l8.jpg'); animation-delay: 30s; }
+.bg8 { background-image: url('../assets/images/l9.jpg'); animation-delay: 35s; }
+.bg9 { background-image: url('../assets/images/l10.jpg'); animation-delay: 40s; }
+
+@keyframes fade {
+  0% { opacity: 0; }
+  5% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  color: white;
+  text-align: center;
+}
+
+.typing {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  white-space: pre-wrap;
+  z-index: 100;
 }
